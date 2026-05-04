@@ -28,19 +28,19 @@ Dependencies
     "react-native-screens": "~4.16.0"
 
 Cara Install & Run
-git clone (link repo ini)
-cd ResepKitaApp
-npm install
-npx expo start
+- git clone (link repo ini)
+- cd ResepKitaApp
+- npm install
+- npx expo start
 
 Screenschot
-Terdapat pada folder screenshot 
+- Terdapat pada folder screenshot 
 
 Video Demo
-Link:
+- Link: https://drive.google.com/file/d/10xqlmXD7MFuHZTk2Unowd7mC-e6fzOlK/view?usp=drivesdk
 
 State Management
-Aplikasi ini menggunakan Context API + useReducer untuk mengelola state favorit.
+- Aplikasi ini menggunakan Context API + useReducer untuk mengelola state favorit.
 Alasan Pemilihan:
 - Lebih sederhana dibanding Redux
 - Tidak perlu konfigurasi tambahan
@@ -51,7 +51,7 @@ Kekurangan:
 - Tidak memiliki tools debugging seperti Redux DevTools
 
 API
-Menggunakan API dari: https://www.themealdb.com/api.php
+- Menggunakan API dari: https://www.themealdb.com/api.php
 Endpoint:
 - /categories.php
 - /filter.php?c=<kategori>
@@ -59,10 +59,10 @@ Endpoint:
 - /search.php?s=<keyword>
 
 Referensi
-https://reactnavigation.org/docs/getting-started/
-https://docs.expo.dev/
-https://www.themealdb.com/api.php
-https://stackoverflow.com/
+- https://reactnavigation.org/docs/getting-started/
+- https://docs.expo.dev/
+- https://www.themealdb.com/api.php
+- https://stackoverflow.com/
 
 Refleksi
 Selama pengerjaan aplikasi ini, saya mengalami beberapa kesulitan terutama dalam memahami konsep navigasi menggunakan React Navigation dan pengelolaan state menggunakan Context API. Pada awalnya, saya sering mengalami error seperti “Element type is invalid” yang disebabkan oleh kesalahan import dan export komponen. Selain itu, saya juga sempat mengalami kendala dalam menampilkan data dari API karena struktur response yang belum dipahami dengan baik. Dalam proses debugging, saya belajar bagaimana cara membaca error message dan menelusuri penyebabnya secara sistematis. Saya juga belajar bagaimana mengatur struktur folder agar lebih rapi dan mudah dipahami. Fitur yang cukup menantang adalah implementasi state management untuk favorit, karena harus memastikan data tersimpan dengan benar dan dapat dihapus tanpa error. Selain itu, validasi pada fitur search juga memberikan pemahaman tentang pentingnya user input handling. Dari proyek ini, saya mendapatkan pemahaman yang lebih baik tentang pengembangan aplikasi mobile menggunakan React Native, termasuk penggunaan API, navigasi antar screen, dan pengelolaan state sederhana.
